@@ -1,0 +1,67 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading 
+{
+    width: 100%;
+    max-width: 100vw;
+}
+
+.heading h1 
+{
+    text-align: center;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #5a01a7;
+    padding: 20px;
+    margin: 60px;
+    justify-content: center;
+    align-content: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+h4
+{
+    text-align: center;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.column:hover
+{
+    transform: scale(1.1);
+    background-color: #5a01a7;
+    color: white;
+    transition: 0.3s;
+}
+
+.column:hover a
+{
+    color:white;
+}
